@@ -1,0 +1,13 @@
+{
+    "require": {
+        "fabpot/goutte": "^3.1",
+        "phpoffice/phpexcel": "*",
+        "symfony/console": "*",
+        "symfony/finder": "*"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Commands": "src" 
+        }
+    }
+}
