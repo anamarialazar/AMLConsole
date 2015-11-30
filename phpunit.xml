@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<phpunit colors="true"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+         strict="false"
+         verbose="false"
+         bootstrap="tests/unit/bootstrap.php">
+   <testsuite name="commands">
+	<directory>./tests/unit/commands</directory>
+   </testsuite>
+</phpunit>
+

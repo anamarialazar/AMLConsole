@@ -3,19 +3,31 @@ AMLConsole, a simple Console Application that scraps a webpage, process some dat
 
 ## Installation
 
- 1. `git clone` _this_ repository.
- 2. Download composer: `curl -s https://getcomposer.org/installer | php`
- 3. Install AMLConsole 'dependencies: `php composer.phar install`
-
-## Run tests
+ 1. Clone or download the zip of AMLConsole repository.
+ 2. Install AMLConsole 'dependencies: `php composer.phar install` using Composer
+    Note: 
+    To install composer go on their website and follow the instructions to download or type in the console `curl -s https://getcomposer.org/installer | php`
 
 ## Usage
-`php run.php`
+
+`php run.php extract`
+
+## Run tests
+The tests can be found in the "tests" folder. The directory is split in 2 folders: unit (phpunit) and functional (behat).
+
+Run all unit tests:
+'vendor/bin/phpunit' 
+To test a specific section:
+'vendor/bin/phpunit --testsuite commands' 
+
+Run functional tests
+'cd tests/functional'
+'../../vendor/bin/behat'
 
 ## Tasks
  - consume a webpage, process some data and present it.
  - unit and / or behavioural tests.
- - link:http://hiring-tests.s3-website-eu-west-1.amazonaws.com/2015_Developer_Scrape/5_products.html
+ - link: http://hiring-tests.s3-website-eu-west-1.amazonaws.com/2015_Developer_Scrape/5_products.html
  - README.md file in the root describing how to run the app, how to run tests and any dependencies needed from the system
 
 - return a JSON array of all the products

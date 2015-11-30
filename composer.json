@@ -1,9 +1,13 @@
 {
     "require": {
         "fabpot/goutte": "^3.1",
-        "phpoffice/phpexcel": "*",
         "symfony/console": "*",
-        "symfony/finder": "*"
+        "symfony/finder": "*",
+        "phpunit/phpunit": "*",
+        "behat/behat": "*",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium2-driver": "*"
     },
     "autoload": {
         "psr-0": { 
